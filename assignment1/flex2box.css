@@ -1,0 +1,83 @@
+  body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+  gap: 50px;
+  }
+
+
+
+ #one{
+  width: 500px;
+  height: 300px;
+  border: 1px solid;
+  display: flex;
+  justify-content: center ;
+  align-items: center;
+   column-gap:10px;
+   row-gap: 1opx;
+  flex-wrap: wrap;
+ }
+.first{
+  width: 200px;
+  height: 60px;
+  border: 1px solid;
+  background-color: aqua;
+}
+.first3{
+  width: 400px;
+ }
+ #two{
+  width: 500px;
+  height: 100px;
+  border: 1px solid ; 
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+ }
+ .two2{
+  width: 350px;
+  height: 75px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: aqua;
+ }
+ .two1,.two3{
+  width: 60px;
+  height: 75px;
+  border: 1px solid ;
+  border-radius: 10px;
+  background-color: aqua;
+ }
+#three{
+  width: 500px;
+  height: 300px;
+  border: 1px solid ;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.third{
+  height: 50px;
+  border: 1px solid;
+  background-color: aqua;
+}
+.third1{
+  width: 150px;
+}
+.third2{
+  width: 200px;
+}
+.third3{
+  width: 300px;
+}
+.third4{
+  width: 100px;
+}
+.third5{
+  width: 150px;
+}
